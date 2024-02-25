@@ -1,0 +1,349 @@
+/* @media (max-width: 600px) */
+
+@media (max-width: 600px) {
+  .logo {
+    display: none;
+  }
+  .toggle {
+    position: absolute;
+  }
+
+  #menuBtn {
+    right: 100px;
+  }
+
+  #header {
+    height: 100vh;
+  }
+
+  .banner-text h1 {
+    font-size: 60px;
+  }
+
+  .banner-btn a {
+    display: block;
+    margin: 20px auto;
+  }
+
+  #sideNav {
+    font-size: 22px;
+  }
+
+  .accommod-box {
+    width: 80%;
+    height: 82vh;
+    padding: 20px;
+  }
+
+  .accommod-desc {
+    width: 500px;
+  }
+
+  .accommod-img img {
+    display: none;
+  }
+
+  .title-text-1 {
+    font-size: 24px;
+    margin-top: 20px;
+  }
+
+  #gallery {
+    width: 90%;
+  }
+
+  .price-list-section {
+    width: 100%;
+  }
+
+  .row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .price-list-plan {
+    width: 250px;
+  }
+
+  .form-wrapper {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .banner1,
+  .green-bg {
+    display: none;
+  }
+
+  .signup-form {
+    width: 550px;
+  }
+
+  .container-form.change .signup-form {
+    left: 40px;
+  }
+
+  .review-col {
+    flex-basis: 100%;
+  }
+
+  #review {
+    width: 100%;
+  }
+
+  .spa-row {
+    flex-wrap: wrap;
+    margin: 0 auto;
+  }
+
+  .treatment {
+    width: 360px;
+  }
+
+  .trips {
+    width: 100vw;
+    overflow: hidden;
+  }
+  .container-trips {
+    height: 40vh;
+    margin: 20px 0;
+  }
+
+  .slide:nth-of-type(4),
+  .slide:nth-of-type(5) {
+    display: none;
+  }
+
+  .slide {
+    height: 40vh;
+    border-radius: 30px;
+  }
+
+  .footer-img {
+    display: none;
+  }
+}
+
+/* @media (max-width: 800px) */
+
+@media (max-width: 800px) {
+  .logo {
+    display: none;
+  }
+
+  .toggle {
+    position: absolute;
+    right: 60px;
+  }
+
+  #menuBtn {
+    right: 60px;
+  }
+
+  .arrow {
+    right: 60px;
+  }
+
+  #header {
+    height: 150vh;
+    width: 100%;
+  }
+
+  .banner-text h1 {
+    font-size: 90px;
+    padding-top: 120px;
+  }
+
+  .banner-btn a {
+    display: none;
+  }
+
+  #sideNav {
+    font-size: 24px;
+  }
+
+  #gallery {
+    width: 100%;
+  }
+
+  .accommod-box {
+    width: 80%;
+  }
+
+  .accommod-wrapper {
+    margin-left: 20px;
+  }
+
+  .accommod-desc {
+    width: 500px;
+  }
+
+  .title-text-1 {
+    font-size: 24px;
+    margin-top: 20px;
+  }
+
+  .accommod-img img {
+    display: none;
+  }
+
+  .form-wrapper {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .banner1,
+  .green-bg {
+    display: none;
+  }
+
+  .signup-form {
+    width: 650px;
+  }
+
+  .container-form.change .signup-form {
+    left: 50px;
+  }
+
+  .container-form {
+    height: 100vh;
+  }
+
+  .review-col {
+    flex-basis: 100%;
+  }
+
+  #review {
+    width: 100%;
+  }
+
+  .spa-row {
+    flex-wrap: wrap;
+  }
+
+  .treatment {
+    width: 450px;
+  }
+
+  .trips {
+    width: 100vw;
+    overflow: hidden;
+  }
+  .container-trips {
+    height: 40vh;
+    margin: 20px 0;
+  }
+
+  .slide:nth-of-type(4),
+  .slide:nth-of-type(5) {
+    display: none;
+  }
+
+  .slide {
+    height: 40vh;
+    border-radius: 30px;
+  }
+
+  .footer-text h1 {
+    font-size: 48px;
+  }
+
+  .footer-img {
+    right: 285px;
+  }
+}
+
+/* @media (max-width: 1000px) */
+
+@media (max-width: 1000px) {
+  .logo img {
+    display: block;
+    position: absolute;
+    right: 400px;
+    top: 20px;
+    width: 120px;
+    height: 120px;
+  }
+  .toggle {
+    position: absolute;
+    right: 100px;
+  }
+
+  #menuBtn {
+    right: 120px;
+  }
+
+  .arrow {
+    right: 105px;
+  }
+
+  #header {
+    height: 150vh;
+    width: 100%;
+  }
+
+  .banner-text h1 {
+    font-size: 100px;
+    padding-top: 120px;
+  }
+
+  #sideNav {
+    width: 250px;
+  }
+
+  #gallery {
+    width: 100%;
+  }
+
+  .accommod-box {
+    margin-left: 50px;
+  }
+
+  .accommod-img {
+    display: block;
+  }
+
+  .accommod-box {
+    flex-wrap: nowrap;
+  }
+
+  .form-wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .banner1,
+  .green-bg {
+    display: block;
+  }
+
+  .signup-form {
+    width: 140px;
+  }
+
+  .container-form.change .signup-form {
+    width: 100%;
+    left: 300px;
+  }
+
+  .spa-row {
+    flex-wrap: wrap;
+  }
+
+  .treatment {
+    width: 535px;
+  }
+
+  .footer-text h1 {
+    font-size: 54px;
+  }
+
+  .footer-img {
+    right: 240px;
+  }
+}
